@@ -1,0 +1,16 @@
+button{
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background-color:gold;
+	color:white;
+	font-size:50px;
+	border-radius:10px;
+	border-style: outset;
+	border-color:gold;
+}
+button:hover{
+	background-image: linear-gradient(to right, gold , yellow , gold);
+	cursor:pointer;
+}
